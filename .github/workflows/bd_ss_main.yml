@@ -46,6 +46,7 @@ jobs:
           # include_diagnostics: true
           # network_ssl_trustAll: true
           # network_ssl_cert_file: '/Users/Config/cert.pem'
+          bridgecli_download_version: '3.7.1'
 
       - name: Black Duck SCA PR Scan
         id: black-duck-pr-scan
