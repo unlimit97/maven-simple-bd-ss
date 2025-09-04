@@ -39,7 +39,7 @@ jobs:
           # blackducksca_reports_sarif_groupSCAIssues: true
           # blackducksca_upload_sarif_report: true
           # github_token: ${{ secrets.GITHUB_TOKEN }}
-          # mark_build_status: 'success'
+          mark_build_status: 'success'
           # blackducksca_policy_badges_create: true
           # blackducksca_policy_badges_maxCount: 5
           # project_directory: ${{ vars.PROJECT_DIRECTORY }}
@@ -63,7 +63,7 @@ jobs:
           # blackducksca_policy_badges_maxCount: 5
           # project_directory: ${{ vars.PROJECT_DIRECTORY }}
           # include_diagnostics: true
-          # mark_build_status: 'success'
+          mark_build_status: 'success'
           # network_ssl_trustAll: true
           # network_ssl_cert_file: '/Users/Config/cert.pem'
 
