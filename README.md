@@ -28,4 +28,5 @@ and the dependency:
 
 test full scan
 test full scan2
+test prcomment 2
 
