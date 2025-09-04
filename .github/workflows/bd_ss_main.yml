@@ -26,13 +26,13 @@ jobs:
           blackducksca_scan_failure_severities: 'BLOCKER,CRITICAL'
           # blackducksca_waitForScan: false
           # detect_search_depth: 2
-          # detect_args: '--detect.diagnostic=true'
+          # detect_args: '--detect.diagnostic=true --logging.level.detect=DEBUG'
           # detect_config_path: '/Users/Config/application.properties'
           blackducksca_fixpr_enabled: true
           blackducksca_fixpr_maxCount: 5
           blackducksca_fixpr_filter_severities: 'CRITICAL,HIGH'
           # blackducksca_fixpr_useUpgradeGuidance: 'SHORT_TERM,LONG_TERM'
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           # blackducksca_reports_sarif_create: true
           # blackducksca_reports_sarif_file_path: '/Users/tmp/report.sarif.json'
           # blackducksca_reports_sarif_severities: 'CRITICAL,HIGH'
