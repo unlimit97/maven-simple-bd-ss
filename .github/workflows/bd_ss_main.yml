@@ -28,9 +28,9 @@ jobs:
           # detect_search_depth: 2
           # detect_args: '--detect.diagnostic=true'
           # detect_config_path: '/Users/Config/application.properties'
-          # blackducksca_fixpr_enabled: true
-          # blackducksca_fixpr_maxCount: 5
-          # blackducksca_fixpr_filter_severities: 'CRITICAL,HIGH'
+          blackducksca_fixpr_enabled: true
+          blackducksca_fixpr_maxCount: 5
+          blackducksca_fixpr_filter_severities: 'CRITICAL,HIGH'
           # blackducksca_fixpr_useUpgradeGuidance: 'SHORT_TERM,LONG_TERM'
           # github_token: ${{ secrets.GITHUB_TOKEN }}
           # blackducksca_reports_sarif_create: true
