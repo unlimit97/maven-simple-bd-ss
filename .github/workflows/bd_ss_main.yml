@@ -35,7 +35,7 @@ jobs:
           blackducksca_fixpr_filter_severities: 'CRITICAL,HIGH'
           # blackducksca_fixpr_useUpgradeGuidance: 'SHORT_TERM,LONG_TERM'
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # blackducksca_reports_sarif_create: true
+          blackducksca_reports_sarif_create: true
           # blackducksca_reports_sarif_file_path: '/Users/tmp/report.sarif.json'
           # blackducksca_reports_sarif_severities: 'CRITICAL,HIGH'
           # blackducksca_reports_sarif_groupSCAIssues: true
@@ -45,7 +45,7 @@ jobs:
           # blackducksca_policy_badges_create: true
           # blackducksca_policy_badges_maxCount: 5
           # project_directory: ${{ vars.PROJECT_DIRECTORY }}
-          # include_diagnostics: true
+          include_diagnostics: true
           network_ssl_trustAll: true
           # network_ssl_cert_file: '/Users/Config/cert.pem'
           
