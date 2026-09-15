@@ -29,6 +29,7 @@ jobs:
           detect_args: '--detect.excluded.detector.types=GIT --logging.level.detect=DEBUG'
           # detect_args: '--detect.excluded.detector.types=GIT --detect.diagnostic=true --logging.level.detect=DEBUG'
           # detect_config_path: '/Users/Config/application.properties'
+          blackducksca_externalIssues_create: true
           blackducksca_fixpr_enabled: true
           blackducksca_fixpr_maxCount: 5
           blackducksca_fixpr_filter_severities: 'CRITICAL,HIGH'
@@ -45,7 +46,7 @@ jobs:
           # blackducksca_policy_badges_maxCount: 5
           # project_directory: ${{ vars.PROJECT_DIRECTORY }}
           # include_diagnostics: true
-          # network_ssl_trustAll: true
+          network_ssl_trustAll: true
           # network_ssl_cert_file: '/Users/Config/cert.pem'
           
 #          bridgecli_download_version: '3.7.1'
